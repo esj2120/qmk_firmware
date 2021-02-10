@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_RIGHTWO] = LAYOUT_planck_grid(
 	KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
-	_______, C(KC_C), C(KC_V), C(S(KC_T)), C(KC_W), C(A(KC_T)), _______, _______, _______, _______, _______, RESET, 
+	_______, C(KC_C), C(KC_V), C(S(KC_T)), C(KC_W), C(A(KC_T)), _______, _______, _______, LCG_SWP, LCG_NRM, RESET, 
 	_______, LGUI(KC_UP), LGUI(KC_DOWN), LGUI(KC_H), A(KC_F4), _______, _______, KC_MFFD, KC_MRWD, C(KC_HOME), KC_UP, C(KC_END), 
 	_______, RGB_HUI, RGB_SAI, RGB_VAI, _______, _______ ,_______ , KC_NO, _______, C(KC_LEFT), _______, C(KC_RIGHT)
 	),
